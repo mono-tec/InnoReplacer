@@ -80,7 +80,6 @@ svc.ReplaceInPlace("config.ini", "__TOKEN__", "abcd1234");
   OS・DB・スクリプトなどで BOM が原因の不具合を防ぐことを目的としています。  
 - `UTF-8(無BOM)` が推奨設定です（PostgreSQL・PowerShell・bash 互換性が最も高い）。
 - このツールは **自己責任で使用**してください。作者は動作保証および損害への責任を負いません。
-- アイコンは [Google Material Icons](https://fonts.google.com/icons)（Apache License 2.0）を使用しています。
 
 ---
 
