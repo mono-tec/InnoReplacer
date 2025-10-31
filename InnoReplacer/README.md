@@ -1,3 +1,28 @@
+# InnoReplacer
+
+Encoding-safe text replacement utility for installers and automation scripts.  
+Maintains original file encoding (UTF-8/UTF-16/UTF-32/Shift-JIS etc.) while replacing placeholders.
+
+[![Version](https://img.shields.io/badge/version-1.1.0.0-blue.svg)](#)
+
+---
+
+## 🛈 Project Move (Repository Migration)
+
+This project was **migrated from**:
+
+- Old path: https://github.com/mono-tec/ConsistRunner/tree/master/Tools/InnoReplacer  
+- New home (this repo): https://github.com/mono-tec/InnoReplacer/tree/master/InnoReplacer
+
+**Why move?**
+- ツール単体での管理・配布性を高めるため  
+- テンプレートや他プロジェクトからの再利用を容易にするため  
+- リリースや CI をツール単位で運用するため
+
+> 旧パス側はメンテ終了（Archive予定）とし、今後のIssue/PRは本リポジトリで受け付けます。
+
+---
+
 # InnoReplacer v1.1.0.0
 
 Inno Setup などから呼び出して、ファイル内の文字列を安全に置換するためのツールです。  
@@ -89,3 +114,8 @@ svc.ReplaceInPlace("config.ini", "__TOKEN__", "abcd1234");
 - テスト: **MSTest (Visual Studio)**  
 - カバレッジ: UTF-8 / UTF-16 / UTF-32 (LE/BE) + Shift-JIS  
 - BOM動作検証済み（全9通り × BOMあり/なし）
+
+---
+
+## License
+MIT © 2025 mono-tec
