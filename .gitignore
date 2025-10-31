@@ -1,0 +1,78 @@
+# =========================
+# Build results
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Oo]ut/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Test results
+# =========================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+
+# =========================
+# NuGet
+# =========================
+# PackageReference を使用しているため packages/ は不要
+*.nupkg
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# NuGet packages フォルダ（旧形式）
+packages/
+
+# Paket
+.paket/
+paket-files/
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Others
+# =========================
+*.swp
+*.bak
+*.tmp
+*.log
+*.dbmdl
+*.jfm
+
+# Publish outputs
+publish/
+*.Publish.xml
+
+# StyleCop
+StyleCopReport.xml
+
+# =========================
+# Keep essentials
+# =========================
+!*.cs
+!*.csproj
+!*.sln
+!*.config
+!*.json
+!*.xml
+!*.md
+!LICENSE*
+!README*

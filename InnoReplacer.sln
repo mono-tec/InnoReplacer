@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{2022CB0F-8BAF-F49E-0C48-8EF4C96EC109}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoReplacer", "InnoReplacer\InnoReplacer.csproj", "{5785A331-8861-4C6E-BC23-8B4CEACD2275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnoReplacerTests", "InnoReplacerTests\InnoReplacerTests.csproj", "{A6ACB316-585B-4163-AE57-8B41C1A94839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5785A331-8861-4C6E-BC23-8B4CEACD2275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6ACB316-585B-4163-AE57-8B41C1A94839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ACB316-585B-4163-AE57-8B41C1A94839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ACB316-585B-4163-AE57-8B41C1A94839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ACB316-585B-4163-AE57-8B41C1A94839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD542144-183C-4E3F-8C73-684582739231}
+	EndGlobalSection
+EndGlobal
